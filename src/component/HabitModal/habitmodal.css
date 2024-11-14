@@ -1,0 +1,70 @@
+.habitmodal-brand-cont{
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: #0000008a;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 55555;
+}
+.habitmodal-sec{
+      height: 77%;
+      width: 40%;
+      background-color: #fff;
+      padding: 1rem;
+      overflow: hidden;
+}
+.modal-heading{
+      font-size: 1.2rem;
+      color: var(--primary-color);
+}
+.habit-name{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+  }
+  .habit-name span{
+      font-size: .8rem;
+      margin-top: 1rem;
+      color: #5e5b5b;
+  }
+  .habit-name input{
+      height: 2rem;
+      outline: none;
+      margin-top: 1rem;
+      color: #5e5b5b;
+      letter-spacing: 2px;
+      padding: 0 1rem;
+      font-size: .7rem;
+      text-transform: uppercase;
+      border: 1px solid #e0dede;
+  }
+  .modal-btn-sec{
+      height: 4.8em;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      background-color: #f3f2f2;
+      margin-top: 5px;
+  }
+  .modal-btn-sec button{
+      height: 2rem;
+      width: 6rem;
+      border-radius: 3px;
+      margin-left: 1rem;
+      cursor: pointer;
+  }
+  .modal-btn-sec button:nth-child(1){
+      border: 1px solid beige;
+      background-color: #fff;
+  }
+  .modal-btn-sec button:nth-child(2){
+      background-color: var(--primary-color);
+      color: #fff;
+      border: none;
+  }

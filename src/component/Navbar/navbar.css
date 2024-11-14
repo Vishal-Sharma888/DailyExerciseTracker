@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@500&family=Dancing+Script&family=Montserrat:wght@100&family=Poppins:wght@100;300;400&family=Recursive:wght@600&family=Satisfy&family=Ubuntu:ital,wght@1,300&display=swap');
+
+.navbar-main-div{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background-color: var(--primary-color);
+      color: var(--secondary-color);
+      width: 100%;
+      height: 4rem;
+      padding: 2rem;
+}
+.site-name{
+      font-size: 1.7rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+      font-family: 'Arima', cursive;
+      text-decoration: none;
+      color: var(--secondary-color);
+}
+.login-cont{
+      display: flex;
+      align-items: center;
+      justify-content: baseline;
+      gap: 1rem;
+      font-size: 1.2rem;
+      font-weight: 500;
+}
+.text-decoration{
+      text-decoration: none;
+      color: var(--secondary-color);
+}
+.habit-div{
+      border: 2px solid #fff;
+      padding: 0.3rem;
+}

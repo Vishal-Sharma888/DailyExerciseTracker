@@ -1,0 +1,38 @@
+.sidebar-brand-cont{
+      width: 20%;
+      height: 100vh;
+      background-color: var(--secondary-color);
+      box-shadow:-2px 2px 22px -3px rgba(0,0,0,0.75);
+
+}
+.sidebar-gif{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+
+}
+.climber-heading{
+      font-size: 1.5rem;
+      font-weight: 700;
+}
+.sidebar-gif img{
+      width: 50px;
+      height: 50px;
+      margin: 0.5rem;
+      border-radius: 50%;
+}
+.display-flex{
+      display: flex;
+      margin: 2rem;
+      gap: 2rem;
+      text-decoration: none;
+      color: var(--black-color);
+}
+.motivatinal-quotes {
+      margin-top: 8rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #F8485E;
+    text-align: center;
+}

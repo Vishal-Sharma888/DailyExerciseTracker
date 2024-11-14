@@ -1,0 +1,59 @@
+.login-main-cont{
+      background: url("https://img.freepik.com/free-photo/girl-sportswear-rocks_169016-3321.jpg?t=st=1656393372~exp=1656393972~hmac=41e918eb9c45652577d64c5440841fe0d83f1a5c4643bbdf72c75019ebec88ff&w=1060");
+      height: 100vh;
+      width: 100vw;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+}
+.center-login-cont{
+      width: 50%;
+      height: 60%;
+      background-color:var(--secondary-color);
+      opacity: 0.8;
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+      justify-content: center;
+      position: absolute;
+      bottom: 20%;
+      left: 23%;
+}
+.login-wrapper{
+      font-size: 2rem;
+      font-weight: 700;  
+}
+.input-fields{
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+}
+.input-fields input{
+padding: 0.5rem;
+margin: 0.5rem;
+border: none;
+outline: none;
+border-bottom: 2px solid var(--black-color);
+font-size: 1.2rem;
+}
+.login-btn button{
+      padding: 0.3rem;
+      margin: 0.5rem;
+      cursor: pointer;
+      background-color: var(--primary-color);
+      border: none;
+      outline: none;
+      color: var(--secondary-color);
+      font-size: 1rem;
+}
+.login-btn{
+      width: 100%;
+      padding: 0.5rem;
+      margin: 0.3rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 1rem;
+      color: var(--secondary-color);
+      background-color: var(--primary-color);
+}
