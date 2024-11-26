@@ -11,7 +11,7 @@
 
 <!-- PROJECT SHIELDS -->
 
-[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/divya-namdev-115a1619a/)
+[![LinkedIn][linkedin-shield]]()
 
 
 
